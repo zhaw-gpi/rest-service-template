@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Hauptklasse für die VeKa-SpringBoot-Applikation
+ * Hauptklasse für die RestService-Template-SpringBoot-Applikation
  * 
  * @author scep
  */
