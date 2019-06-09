@@ -1,4 +1,4 @@
-package ch.zhaw.gpi.veka.entities;
+package ch.zhaw.gpi.user.entities;
 
 import java.io.Serializable;
 import javax.persistence.Entity;

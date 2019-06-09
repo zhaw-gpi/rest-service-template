@@ -1,9 +1,9 @@
-package ch.zhaw.gpi.veka.controller;
+package ch.zhaw.gpi.user.controller;
 
-import ch.zhaw.gpi.veka.entities.UserEntity;
+import ch.zhaw.gpi.user.entities.UserEntity;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
-import ch.zhaw.gpi.veka.repositories.UserRepository;
+import ch.zhaw.gpi.user.repositories.UserRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,6 +1,6 @@
-package ch.zhaw.gpi.veka.repositories;
+package ch.zhaw.gpi.user.repositories;
 
-import ch.zhaw.gpi.veka.entities.UserEntity;
+import ch.zhaw.gpi.user.entities.UserEntity;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 
