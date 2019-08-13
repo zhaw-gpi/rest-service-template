@@ -1,8 +1,8 @@
-Björn Scheppler, 21.11.2018
+Björn Scheppler, 13.8.2019
 
 # REST-Service Template (rest-service-template)
 Dieses Maven-Projekt kann genutzt werden als Startpunkt für eigene auf Spring Boot, JPA und REST beruhende Projekte. Enthalten sind folgende Funktionalitäten:
-1. Spring Boot 2.0.3 
+1. Spring Boot 2.1.7
 2. Spring Boot Starter Web für Tomcat sowie REST-Komponenten
 4. H2-Datenbank-Unterstützung
 5. Spring Boot Starter JPA für Datenbank-Zugriff
