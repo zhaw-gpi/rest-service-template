@@ -36,10 +36,10 @@ public class UserController {
         
         // Falls Benutzer gefunden wurde, dann zurück geben
         if(user.isPresent()) {
-            return new ResponseEntity(user.get(), HttpStatus.OK);
+            return new ResponseEntity<UserEntity>(user.get(), HttpStatus.OK);
         } else {
             // Ansonsten ResourceNotFoundException (404)
-            return new ResponseEntity(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<UserEntity>(HttpStatus.NOT_FOUND);
         }        
     }
 }

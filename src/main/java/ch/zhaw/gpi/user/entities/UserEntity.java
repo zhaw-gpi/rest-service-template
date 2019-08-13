@@ -1,6 +1,5 @@
 package ch.zhaw.gpi.user.entities;
 
-import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,7 +11,7 @@ import javax.persistence.Id;
  * @author scep
  */
 @Entity(name = "User")
-public class UserEntity implements Serializable {
+public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userId;     

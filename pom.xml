@@ -12,6 +12,11 @@
         <version>2.1.7.RELEASE</version>
     </parent>
 
+    <properties>        
+        <maven.compiler.source>12</maven.compiler.source>
+        <maven.compiler.target>12</maven.compiler.target>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
