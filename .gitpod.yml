@@ -1,7 +1,6 @@
+image:
+  file: .gitpod.dockerfile
 ports:
   - port: 8070
 tasks:
   - init: mvn install
-vscode:
-  extensions:
-    - Pivotal.vscode-spring-boot@1.10.0:RtohdZAgjk/9js3hM3+8Cg==
