@@ -1,1 +1,1 @@
-image: node:alpine
+image: openjdk:12-alpine
