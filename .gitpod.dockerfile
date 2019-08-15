@@ -2,7 +2,7 @@ FROM gitpod/workspace-full:latest
 
 ### Java & Maven ###
 USER root
-RUN apt-get remove -y --purge openjdk* && apt-get install -y \
+RUN apt-get update && apt-get remove -y --purge openjdk* && apt-get install -y \
         openjdk-11-jdk \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
 
