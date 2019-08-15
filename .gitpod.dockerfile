@@ -1,8 +1,8 @@
 FROM gitpod/workspace-full:latest
 
 ### Java & Maven ###
-RUN yes | unminimize \
-    && apt-get install -yq \
+USER root
+RUN apt-get update && apt-get install -y \
         openjdk-11-jdk \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
 
