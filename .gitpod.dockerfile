@@ -1,10 +1,7 @@
-FROM gitpod/workspace-full:latest
+FROM openjdk:12-alpine
 
 ### Java & Maven ###
 USER root
-RUN apt-get update && apt-get remove -y --purge openjdk* && apt-get install -y \
-        openjdk-11-jdk \
-    && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
 
 ARG MAVEN_VERSION=3.5.4
 ENV MAVEN_HOME=/usr/share/maven
