@@ -20,11 +20,9 @@ WORKDIR $HOME
 RUN { echo && echo "PS1='\[\e]0;\u \w\a\]\[\033[01;32m\]\u\[\033[00m\] \[\033[01;34m\]\w\[\033[00m\] \\\$ '" ; } >> .bashrc
 
 ### Java & Maven ###
-RUN add-apt-repository -yu ppa:webupd8team/java \
-    && echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | debconf-set-selections \
+RUN yes | unminimize \
     && apt-get install -yq \
-        gradle \
-        oracle-java8-installer \
+        openjdk-11-jdk \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
 
 ARG MAVEN_VERSION=3.5.4
