@@ -1,6 +1,0 @@
-image:
-  file: .gitpod.dockerfile
-ports:
-  - port: 8070
-tasks:
-  - init: mvn install
