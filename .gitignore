@@ -27,4 +27,4 @@
 /.settings/
 /.vscode/
 /.sts4-cache/
-/userDb.mv.db
+*.db
