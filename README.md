@@ -1,4 +1,4 @@
-Björn Scheppler, 27.10.2020
+Björn Scheppler, 30.4.2021
 
 # REST-Service Template (rest-service-template)
 Dieses Maven-Projekt kann genutzt werden als Startpunkt für eigene auf Spring Boot, JPA und REST beruhende Projekte. Enthalten sind folgende Funktionalitäten:
